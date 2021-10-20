@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTTP2 Protocol In Action</title>
+  <link rel="stylesheet" href="styles/bulma.min.css">
+  <link rel="stylesheet" href="styles/animate.min.css">
+</head>
+
+<body class="p-3">
+  <h1 class="animate__animated animate__bounce animate__delay-3s animate__repeat-2 is-size-2">Hello World!</h1>
+  <div id="counter">
+    <p class="is-size-3">
+      Counter: {{ counter }}
+    </p>
+    <div class="buttons">
+      <button class="button is-primary" @click="counter++">Increment</button>
+      <button class="button is-primary" @click="counter--">Decrement</button>
+    </div>
+  </div>
+  <div class="columns is-vcentered">
+    <div class="column">
+      <img src="/images/japan1.jpg" alt="Japan" />
+    </div>
+    <div class="column">
+      <img src="/images/japan2.jpg" alt="Japan" />
+    </div>
+    <div class="column">
+      <img src="/images/japan3.jpg" alt="Japan" />
+    </div>
+  </div>
+  <p>Photos by <a href="https://unsplash.com/@tianshu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tianshu Liu</a> on <a href="https://unsplash.com/@tianshu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </p>
+  <script src="scripts/vue.min.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
